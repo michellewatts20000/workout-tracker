@@ -126,8 +126,6 @@ const workoutSeed = [
   },
 ];
 
-
-
 db.deleteMany({})
   .then(() => db.collection.insertMany(workoutSeed))
   .then((data) => {

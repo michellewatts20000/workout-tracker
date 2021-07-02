@@ -38,6 +38,11 @@ const workoutSchema = new Schema({
 
 });
 
+workoutSchema.methods.coolifier = function() {
+  this.username = `${this.username}...the Coolest!`;
+  return this.username;
+};
+
 const Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;

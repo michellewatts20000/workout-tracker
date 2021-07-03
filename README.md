@@ -28,9 +28,8 @@
 [Email: watts.e.michele@gmail.com](mailto:watts.e.michele@gmail.com)
 
   ## Screenshots
-  ![screenshot of portfolio](./img/screenshot1.png)
-    ![screenshot of portfolio](./img/screenshot2.png)
-      ![screenshot of portfolio](./img/screenshot3.png)
+  ![screenshot of portfolio](./public/img/screenshot1.png)
+  ![screenshot of portfolio](./public/img/screenshot2.png)
 
 ## App
 [The deployed app](https://still-hollows-78707.herokuapp.com/)

@@ -54,8 +54,8 @@ const workoutSeed = [
       {
         type: 'cardio',
         name: 'Running',
-        duration: 25,
-        distance: 4,
+        duration: 50,
+        distance: 7,
       },
     ],
   },

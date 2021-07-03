@@ -34,14 +34,10 @@ const workoutSchema = new Schema({
     distance: {
       type: Number,
     }
-  }],
+  }]
 
 });
 
-workoutSchema.methods.coolifier = function() {
-  this.username = `${this.username}...the Coolest!`;
-  return this.username;
-};
 
 const Workout = mongoose.model("Workout", workoutSchema);
 

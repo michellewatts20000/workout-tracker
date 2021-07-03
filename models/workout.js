@@ -7,6 +7,7 @@ const workoutSchema = new Schema({
     type: Date,
     default: Date.now
   },
+ 
   exercises: [{
     type: {
       type: String,
@@ -34,11 +35,16 @@ const workoutSchema = new Schema({
     distance: {
       type: Number,
     }
+   
   }]
 
 });
 
 
+
 const Workout = mongoose.model("Workout", workoutSchema);
+
+Workout.aggregate([{ $match: {  } }, { $group: { totalDuration: { $sum: "$duration" } }}
+]);
 
 module.exports = Workout;

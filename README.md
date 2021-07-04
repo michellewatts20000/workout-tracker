@@ -19,7 +19,7 @@
   `npm i` and then `npm start` it will run locally on `http://localhost:3000`
 
   ## Usage
-  via Heroku, or you can run it locally by installing the db and setting up a .env and running npm start.
+  via [Heroku](https://still-hollows-78707.herokuapp.com/), or you can run it locally by setting up a mongodb locally.
 
   ## Technologies used
   Node.js, Express, MongoDB, mongoose, NOSQL, JS.
@@ -32,7 +32,7 @@
   ![screenshot of portfolio](./public/img/screenshot2.png)
 
 ## App
-[The deployed app](https://still-hollows-78707.herokuapp.com/)
+[The deployed app on Heroku](https://still-hollows-78707.herokuapp.com/)
 
   ## License
 

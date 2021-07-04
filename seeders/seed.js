@@ -3,9 +3,9 @@ const db = require('../models/workout.js');
 require('dotenv').config()
 
 
-// mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI, {
 
-mongoose.connect("mongodb://localhost/workout", {
+// mongoose.connect("mongodb://localhost/workout", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

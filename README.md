@@ -25,7 +25,7 @@
   Node.js, Express, MongoDB, mongoose, NOSQL, JS.
 
   ## Contribute
-[Email: watts.e.michele@gmail.com](mailto:watts.e.michele@gmail.com)
+[Email: watts.e.michelle@gmail.com](mailto:watts.e.michelle@gmail.com)
 
   ## Screenshots
   ![screenshot of portfolio](./public/img/screenshot1.png)
@@ -45,4 +45,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
   ## Questions
   [Github: michellewatts20000](https://github.com/michellewatts20000)
   <br>
-  [Email: watts.e.michele@gmail.com](mailto:watts.e.michele@gmail.com)
+  [Email: watts.e.michelle@gmail.com](mailto:watts.e.michelle@gmail.com)
